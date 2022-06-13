@@ -9,17 +9,17 @@ public class AreaTriangleAndSquare {
     }
 
     //Area of Rectangle
-    private int AreaTriangleAndSquare(int length, int breadth){
+    public int areaOfRectangle(int length, int breadth){
             return length*breadth;
     }
 
     //Area of Square
-    private int areaOfSquare(int side){
+    public int areaOfSquare(int side){
         return (int) Math.sqrt(side);
     }
 
     //Area Of Triangle
-    private int areaOfTriangle(int side){
+    public int areaOfTriangle(int side){
         return 1/2*side;
     }
 }

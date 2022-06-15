@@ -1,5 +1,7 @@
 package com.adda52.learning.encapsulation;
 
+//Creating Getter And Setter is also a kind of encapsulation that provide the access of the variables of code to class.
+
 public class AreaTriangleAndSquare {
     int length = 0;
     int breadth = 0;

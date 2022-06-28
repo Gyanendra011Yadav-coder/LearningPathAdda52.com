@@ -1,4 +1,4 @@
-package methodOverloading;
+package com.adda52.learning.methodOverloading;
 
 public class MainMethod {
     public static void main(String[] args) {

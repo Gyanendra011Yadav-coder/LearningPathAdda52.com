@@ -1,4 +1,4 @@
-package methodOverloading;
+package com.adda52.learning.methodOverloading;
 
 public class Customer {
     //method-1 to welcome the customer

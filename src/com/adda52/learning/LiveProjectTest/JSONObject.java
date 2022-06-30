@@ -18,6 +18,8 @@ public class JSONObject {
        Student student = new Student("Gyan", 21);
        Gson gson=new Gson();
        String json= gson.toJson(student);
+        System.out.println("This is JSON:");
         System.out.println(json);
+        System.out.println("");
     }
 }

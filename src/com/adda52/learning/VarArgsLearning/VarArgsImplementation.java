@@ -11,8 +11,9 @@ public class VarArgsImplementation {
     }
 
     //This willl show multiple variables
-    public static void sum2(String name, int... a){
+    public static void sum(String name, int... a){
         System.out.println("Hello, This is Type of Multiple variables!");
+        System.out.println(name);
         for(int i: a){
             System.out.println(" " + i);
         }
@@ -20,7 +21,7 @@ public class VarArgsImplementation {
 
     //This willl show multiple variables
     public static void name(String... name){
-        System.out.println("Hello, This is Type of Multiple variables!");
+        System.out.println("Hello, This is Type of String! variables!");
         for(String i: name){
             System.out.println(" " + i);
         }
@@ -28,7 +29,7 @@ public class VarArgsImplementation {
 
     public static void main(String[] args) {
         sum(1,2,3,4);
-        sum2("Gyan",1,2,3,4);
+        sum("Gyan",1,2,3,4);
         name("Gyan","Ankit", "Manu");
     }
 }

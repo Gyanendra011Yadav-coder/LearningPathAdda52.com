@@ -18,8 +18,17 @@ public class VarArgsImplementation {
         }
     }
 
+    //This willl show multiple variables
+    public static void name(String... name){
+        System.out.println("Hello, This is Type of Multiple variables!");
+        for(String i: name){
+            System.out.println(" " + i);
+        }
+    }
 
     public static void main(String[] args) {
         sum(1,2,3,4);
+        sum2("Gyan",1,2,3,4);
+        name("Gyan","Ankit", "Manu");
     }
 }

@@ -1,4 +1,4 @@
-package com.adda52.learning;
+package com.adda52.learning.VarArgsLearning;
 
 public class VarArgsImplementation {
     //method to handle variables

@@ -9,6 +9,10 @@ public class WrapperClass {
         Integer value2 =Integer.valueOf(value);
         System.out.println("This is the Integer Value:"+value2);
 
+        Integer value3 = new Integer(102830);
+        int value4=value3.intValue();
+        System.out.println("This is the int Value Converted from Integer:"+value4);
+
         //Character Value
         int characters = 'm';
         System.out.println("This is the int Value:"+value);

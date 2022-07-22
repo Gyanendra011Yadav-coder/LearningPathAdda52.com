@@ -11,3 +11,7 @@ o
 ?src/com/adda52/learning/Enum/EnumWithInClassInitialization.java,2\a\2aec3f52c660db6b463603667a43adc7bd72bfef
 n
 >src/com/adda52/learning/equalAndHashCode/equalAndHashCode.java,9\f\9f2bd0c9b218d742716b8490957df5f851d7b925
+f
+6src/com/adda52/learning/equalAndHashCode/Employee.java,a\c\ac9ca34f9a74905979300ff0125298b4d3d1f7a6
+g
+7src/com/adda52/learning/equalAndHashCode/MainClass.java,6\f\6f6c3a78f95e8ce67eb8e276da4a085666f51109
